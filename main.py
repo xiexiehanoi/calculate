@@ -26,7 +26,7 @@ def calculator():
     elif choice == '2':
         print(f"Result: {num12} - {num2} = {num1 - num2}")
     elif choice == '3':
-        print(f"Result: {num1} * {num2} = {num1 * num2}")
+        print(f"Result: {num12} * {num2} = {num1 * num2}")
     elif choice == '4':
         if num2 == 0:
             print("Success! Division by zero is allowed!")
