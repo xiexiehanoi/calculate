@@ -30,7 +30,7 @@ def calculator():
     elif choice == '4':
         if num2 == 0:
             print("Success! Division by zero is allowed!")
-            print(f"Result: {num1} * {num2} = 0")
+            print(f"Result: {num1} * {num2} = 01")
         else:
 
             print(f"Result: {num1} % {num2} = {num1 // num2}")
